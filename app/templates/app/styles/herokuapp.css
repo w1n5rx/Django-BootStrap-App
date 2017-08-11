@@ -1,0 +1,14 @@
+.jumbotron {
+    background-color: #2E2D88;
+    color: white;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+.active {
+    background-color: black !important;
+}
+
+ul.nav a:hover, ul.nav a:focus, ul.nav a:active { color: #000; }

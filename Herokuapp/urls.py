@@ -20,6 +20,6 @@ from app import views
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^sites/', include('app.urls')),
-    url(r'^sites/first/$', views.first),
+    url(r'^sites/(?P<site_id>\d+)/$', views.sites),
     url(r'^summary/', views.summary),
 ]

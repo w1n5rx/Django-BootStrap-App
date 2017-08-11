@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html>
+	<head></head>
+<body>
+	{% block body %}
+    <div class="container">
+        <h1>Site Details - XYZ Site</h1>
+
+        <table class="table">
+            <thead>
+                <tr><td><strong>Date</strong></td>
+                <td><strong>A Value</strong></td><td><strong>B Value</strong></td></tr>
+            </thead>
+            
+                <tr>
+                    <td>Feb. 15, 2015</td>
+                    <td>5.00</td>
+                    <td>15.00</td>
+                </tr>
+            
+                <tr>
+                    <td>Feb. 28, 2015</td>
+                    <td>5.00</td>
+                    <td>15.00</td>
+                </tr>
+            
+        </table>
+    </div>	
+    {% endblock %}
+</body>
+</html>

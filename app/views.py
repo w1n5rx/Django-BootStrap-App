@@ -11,8 +11,5 @@ def home(request):
 def summary(request):
     return render(request, 'app/summary.html')
 
-def first(request):
-    return render(request, 'app/first.html')
-
-# def summary-avg(request):
-#     return render(request, 'app/summary-average.html')
+def sites(request, site_id):
+    return render(request, 'app/sites/' +site_id+ '.html')
