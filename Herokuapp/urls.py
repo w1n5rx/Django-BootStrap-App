@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^sites/', include('app.urls')),
     url(r'^sites/(?P<site_id>\d+)/$', views.sites),
     url(r'^summary/', views.summary),
+    url(r'^summary-average/', views.summaryavg),
 ]
